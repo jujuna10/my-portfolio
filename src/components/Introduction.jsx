@@ -16,16 +16,16 @@ function Introduction() {
         <div className='flex flex-col gap-8 w-full justify-start items-start bg-gradient-to-r from-[#31242e] to-[#33132b] p-8 rounded-[50px]'>
             <div className='flex justify-center items-center'>
                 <p className='text-white font-bold text-[18px]'>HEY THERE</p>
-                <img src="/waving-hand.png" width={20} height={20} />
+                <img src="/waving-hand.png" width={20} height={20} alt='wave' />
                 <p className='text-white font-bold text-[18px]'>I AM</p>
 
             </div>
 
             <div className='flex flex-col gap-4'>
                 <p className="bg-clip-text text-transparent bg-gradient-to-r from-[#00D1FF] to-[#B537F2] text-[32px] lg:text-[55px] md:text-[45px] w-full font-bold max-w-[400px]">Nika Zhuzhunadze</p>
-                <p className='text-white text-[20px]'>AND I'M A REACT DEVELOPER!</p>
+                <p className='text-white text-[20px]'>AND I&apos;M A REACT DEVELOPER!</p>
             </div>
-            <button className='bg-[rgb(151,22,251)] px-9 py-2 rounded-[50px] text-white font-bold flex justify-center items-center'>hire Me <img src="/waving-hand.png" width={20} height={20} /></button>
+            <button className='bg-[rgb(151,22,251)] px-9 py-2 rounded-[50px] text-white font-bold flex justify-center items-center'>hire Me <img src="/waving-hand.png" width={20} height={20} alt='wave' /></button>
         </div>
 
 

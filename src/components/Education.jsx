@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education() {
     const years = ['2014-currect','2023-current']
-    const text = ['I have been attending school since 2014, and I will graduate in one year.','I have been studying at the Academy "GOA" since 2023, and I will graduate in one year.']
+    const text = ['I have been attending school since 2014, and I will graduate in one year.','I have been studying at the Academy &quot;GOA&quot; since 2023, and I will graduate in one year.']
     const numbers = [1,2,3,4,5]
   return (
     <div className='bg-gradient-to-r from-[#31242e]  via-[#31242e] to-[#33132b] w-[100%] p-[35px] py-[100px] h-[650px] relative rounded-[50px]'>
