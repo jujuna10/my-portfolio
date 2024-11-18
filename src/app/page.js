@@ -17,7 +17,6 @@ export default function Home() {
       <Tecnologie />
       <Projects />
       <Education />
-      <Certificates />
       <Tools />
       <ProjectsList />
       <Contact />
