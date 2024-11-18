@@ -29,7 +29,7 @@ function ProjectsList() {
                             </div>
                         </div>
                         <div className={`bg-gradient-to-r from-[#411f3a] to-[#291725] w-[100%] h-[500px] flex justify-center items-center rounded-[50px] xl:w-[700px]`}>
-                            <Image src={index % 2 === 0 ? '/archi.jpg' : '/fitness.jpg'} width={index % 2 === 0 ? 450 : 450} height={index % 2 === 0 ? 450 : 450} className='rounded-[50px] w-[80%] h-[80%] object-cover' />
+                            <Image alt='projects logo' src={index % 2 === 0 ? '/archi.jpg' : '/fitness.jpg'} width={index % 2 === 0 ? 450 : 450} height={index % 2 === 0 ? 450 : 450} className='rounded-[50px] w-[80%] h-[80%] object-cover' />
                         </div>
                     </div>
                 ))}

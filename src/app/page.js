@@ -1,4 +1,3 @@
-import Certificates from "@/components/Certificates";
 import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import Introduction from "@/components/Introduction";

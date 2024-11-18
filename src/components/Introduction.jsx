@@ -39,8 +39,8 @@ function Introduction() {
             {/* right bottom */}
             <div className='flex gap-4 sm:gap-4 flex-wrap'>
                 {images.map((item,index) => (
-                    <div className='bg-gradient-to-r from-[#31242e] to-[#33132b] p-[10px] rounded-[45px] w-[70px] h-[70px] flex justify-center items-center lg:w-[100px] lg:h-[100px]'>
-                        <Image key={index} src={item} width={50} height={50} className='lg:w-[50px] lg:h-[50px] w-[25px] h-[25px]' style={{filter: 'brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(7485%) hue-rotate(176deg) brightness(94%) contrast(109%)'}} />
+                    <div key={index} className='bg-gradient-to-r from-[#31242e] to-[#33132b] p-[10px] rounded-[45px] w-[70px] h-[70px] flex justify-center items-center lg:w-[100px] lg:h-[100px]'>
+                        <Image key={index} src={item} width={50} height={50} alt='photo' className='lg:w-[50px] lg:h-[50px] w-[25px] h-[25px]' style={{filter: 'brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(7485%) hue-rotate(176deg) brightness(94%) contrast(109%)'}} />
                     </div>
                 ))}
             </div>

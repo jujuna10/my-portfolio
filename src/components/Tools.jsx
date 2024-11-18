@@ -16,7 +16,7 @@ function Tools() {
             <p className='text-blue-400 text-[20px] font-bold'>Tools</p>
             <div className='flex flex-col gap-[20px] items-start sm:flex-row'>
                 {images.map((item,index) => (
-                    <div className='bg-gradient-to-r from-[#5b4657] to-[#4f1f43] pt-4 rounded-[50px] w-[95%]'>
+                    <div key={index} className='bg-gradient-to-r from-[#5b4657] to-[#4f1f43] pt-4 rounded-[50px] w-[95%]'>
                         <button className='flex gap-[10px] justify-center items-center py-2 pb-[20px] px-8 text-white'><Image src={item} width={28} height={28} style={index === 1 ? {filter:'invert(1'} : {}} />{names[index]}</button>
                     </div>
                 ))}

@@ -28,7 +28,7 @@ function Projects() {
 
         <div className='w-[100%] lg:w-[35%] bg-gradient-to-r from-[#31242e] to-[#33132b] p-[45px] rounded-[35px] h-[350px] translate-y-[35px] flex justify-center items-center '>
             <div className='bg-[#382934] p-[20px] flex justify-center items-center rounded-[35px]'>
-                <Image src='/photo.jpg' width={200} height={200} className='rounded-[35px] md:w-[250px]' />
+                <Image src='/photo.jpg' width={200} height={200} alt='my photo' className='rounded-[35px] md:w-[250px]' />
             </div>
         </div>
     </div>
